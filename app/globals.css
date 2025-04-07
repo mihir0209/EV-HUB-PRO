@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 15%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 12%;
+  --card-foreground: 0 0% 98%;
+  --popover: 0 0% 12%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 152 38% 49%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 0 0% 20%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 20%;
+  --muted-foreground: 0 0% 60%;
+  --accent: 0 0% 20%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 20%;
+  --input: 0 0% 20%;
+  --ring: 152 38% 49%;
+  --radius: 0.5rem;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+.sidebar {
+  @apply bg-primary h-screen w-64 fixed left-0 top-0 flex flex-col justify-between;
+}
+
+.sidebar-link {
+  @apply flex items-center gap-2 text-white text-xl py-3 px-6 hover:bg-primary/80;
+}
+
+.sidebar-link.active {
+  @apply bg-primary/80;
+}
+
+.main-content {
+  @apply ml-64 p-6;
+}
+
+.vehicle-card {
+  @apply flex items-center justify-between p-4 rounded-lg border border-border bg-card;
+}
+
+.provider-card {
+  @apply p-4 rounded-lg border border-border bg-card;
+}
+
+.time-slot {
+  @apply p-2 border border-border rounded-md text-center cursor-pointer;
+}
+
+.time-slot.selected {
+  @apply border-primary bg-primary/20;
+}
+
+.time-slot.disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+

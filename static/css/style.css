@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 56px;
+  z-index: 100;
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.sidebar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+main {
+  padding-top: 56px;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-left: 16.66667%;
+  }
+}
+
+/* Card Styles */
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.card-header {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Form Styles */
+.form-control,
+.form-select {
+  background-color: #2c3034;
+  border-color: #495057;
+  color: #f8f9fa;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #2c3034;
+  border-color: #4caf82;
+  color: #f8f9fa;
+  box-shadow: 0 0 0 0.25rem rgba(76, 175, 130, 0.25);
+}
+
+/* Button Styles */
+.btn-success {
+  background-color: #4caf82;
+  border-color: #4caf82;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #3d8c68;
+  border-color: #3d8c68;
+}
+
+/* Rating Stars */
+.rating {
+  color: #ffc107;
+}
+
+/* Booking Steps */
+.booking-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.booking-step {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.booking-step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  right: -50%;
+  width: 100%;
+  height: 2px;
+  background-color: #495057;
+  z-index: -1;
+}
+
+.booking-step.active:not(:last-child)::after {
+  background-color: #4caf82;
+}
+
+.booking-step-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #495057;
+  color: #f8f9fa;
+  margin-bottom: 0.5rem;
+}
+
+.booking-step.active .booking-step-icon {
+  background-color: #4caf82;
+}
+
+.booking-step-label {
+  font-size: 0.875rem;
+  color: #adb5bd;
+}
+
+.booking-step.active .booking-step-label {
+  color: #f8f9fa;
+  font-weight: 500;
+}
+
+/* Map Styles */
+.leaflet-container {
+  height: 400px;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
