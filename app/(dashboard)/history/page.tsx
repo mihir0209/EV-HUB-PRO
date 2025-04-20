@@ -8,7 +8,7 @@ const upcomingBookings = [
   {
     id: "B12345",
     vehicle: "Tata Nexon EV Max",
-    provider: "ROHAN JOSHI",
+    provider: "Mihir Patil",
     location: "TATA Station, Akurdi",
     date: "Today",
     time: "2:00 pm - 3:00 pm",
@@ -20,7 +20,7 @@ const pastBookings = [
   {
     id: "B12344",
     vehicle: "MG ZS EV",
-    provider: "ROHAN JOSHI",
+    provider: "Siddhesh Patil",
     location: "TATA Station, Akurdi",
     date: "Yesterday",
     time: "10:00 am - 11:00 am",
@@ -30,7 +30,7 @@ const pastBookings = [
   {
     id: "B12343",
     vehicle: "Hyundai Kona Electric",
-    provider: "ROHAN JOSHI",
+    provider: "Haha Patil",
     location: "TATA Station, Akurdi",
     date: "12 Mar 2023",
     time: "1:00 pm - 2:00 pm",

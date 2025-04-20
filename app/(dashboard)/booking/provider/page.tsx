@@ -11,7 +11,7 @@ import { useToast } from "@/components/ui/use-toast"
 const providers = [
   {
     id: 1,
-    name: "ROHAN JOSHI",
+    name: "Mihir Patil",
     distance: "2.4",
     price: "200/Hr",
     location: "TATA Station",
@@ -20,7 +20,7 @@ const providers = [
   },
   {
     id: 2,
-    name: "ROHAN JOSHI",
+    name: "Siddhesh Patil",
     distance: "2.4",
     price: "200/Hr",
     location: "TATA Station",
@@ -29,7 +29,7 @@ const providers = [
   },
   {
     id: 3,
-    name: "ROHAN JOSHI",
+    name: "Haha Patil",
     distance: "2.4",
     price: "200/Hr",
     location: "TATA Station",

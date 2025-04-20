@@ -9,9 +9,9 @@ import Image from "next/image"
 // Mock data for the provider
 const providerData = {
   id: 1,
-  name: "ROHAN JOSHI",
+  name: "Mihir Patil",
   phone: "+911234567890",
-  address: "Sai Suman Complex, Near Akurdi Railway Station, Akurdi, Pune, Maharashtra 411035, India.",
+  address: "PCCoE, Akurdi, Pune, Maharashtra 411044, India.",
   rating: 4,
   price: "200/Hr",
   avatar: "/placeholder.svg?height=60&width=60",

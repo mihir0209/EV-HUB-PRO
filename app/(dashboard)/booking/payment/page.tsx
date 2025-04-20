@@ -25,11 +25,11 @@ export default function PaymentPage() {
   // Mock booking details
   const bookingDetails = {
     vehicle: "Tata Nexon EV Max",
-    provider: "ROHAN JOSHI",
+    provider: "Mihir Patil",
     location: "TATA Station, Akurdi",
     date: "Today",
     time: "2:00 pm - 3:00 pm",
-    price: "₹200",
+    price: "₹150",
     tax: "₹36",
     total: "₹236",
   }
