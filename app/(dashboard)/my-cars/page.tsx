@@ -26,7 +26,7 @@ const vehicles = [
     batteryCapacity: "40.5 kWh",
     range: "437 km",
     chargeTime: "15 Hours",
-    image: "/placeholder.svg?height=100&width=200",
+    image: "https://imgd.aeplcdn.com/370x208/n/cw/ec/149123/nexon-ev-exterior-right-front-three-quarter-79.jpeg?isig=0&q=80",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const vehicles = [
     batteryCapacity: "44.5 kWh",
     range: "419 km",
     chargeTime: "8 Hours",
-    image: "/placeholder.svg?height=100&width=200",
+    image: "https://www.motoroids.com/wp-content/uploads/2021/05/MG-ZS-EV-1200x800.jpg",
   },
 ]
 
